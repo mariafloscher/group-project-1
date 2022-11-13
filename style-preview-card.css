@@ -74,6 +74,7 @@ img{
 .eth-img{
     position: absolute;
     top: 4px;
+    left: 0;
     width: 16px;
     height: 16px;
 }
@@ -86,7 +87,9 @@ img{
 }
 .avatar-wrapper {
     position: absolute;
+    display: flex;
     top: 7px;
+    left: 0;
     width: 33px;
     height: 33px;
     border: 1px solid var(--White);
@@ -103,6 +106,7 @@ img{
     margin-top: 16px;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 .footer p{
     margin-left: 50px;
